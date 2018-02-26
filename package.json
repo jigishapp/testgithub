@@ -1,23 +1,25 @@
 {
-  "name": "testgithub",
+  "name": "node-restapi",
   "version": "1.0.0",
-  "description": "\"simple login app\"",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jigishapp/testgithub.git"
+  "author": {
+    "name": "Jigisha",
+    "email": "jigishaphadtare55@gmail.com",
+    "url": "http://www.js-tutorials.com/"
   },
-  "author": "\"jigisha\"",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jigishapp/testgithub/issues"
-  },
-  "homepage": "https://github.com/jigishapp/testgithub#readme",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2",
-    "sequelize-cli": "^4.0.0"
+    "base-64": "^0.1.0",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+      "mysql": "^2.13.0"
+    
   }
 }
